@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AntiquesShop.Database.Models.Base;
 using AntiquesShop.Database.Models.Enums;
+using AntiquesShop.Utilities;
 
 namespace AntiquesShop.Database.Models
 {
-    internal class Antiques : BaseModel
+    internal class Antiques : BaseNotifyPropertyChanged
     {
         private int _id;
         private string _name;

@@ -29,3 +29,7 @@ C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\AntiquesShop.
 C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\ref\AntiquesShop.dll
 C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\AntiquesShop.pdb
 C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\AntiquesShop.genruntimeconfig.cache
+C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\Windows\Base\CommonTableWindow.g.cs
+C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\Windows\Base\CommonTableWindow.baml
+C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\Windows\AuthorizationWindow.g.cs
+C:\Users\Nikita\source\repos\AntiquesShop\obj\Debug\net5.0-windows\Windows\AuthorizationWindow.baml

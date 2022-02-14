@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Nikita\source\repos\AntiquesShop\App.xaml
-11407045341
+31193945254
 
-141370353119
+20703389899
 196-260574526
-MainWindow.xaml;
+MainWindow.xaml;Windows\AuthorizationWindow.xaml;Windows\Base\CommonTableWindow.xaml;
 
 False
 

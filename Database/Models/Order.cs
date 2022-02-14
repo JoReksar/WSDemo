@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AntiquesShop.Database.Models.Base;
+using AntiquesShop.Utilities;
 
 namespace AntiquesShop.Database.Models
 {
-    internal class Order : BaseModel
+    internal class Order : BaseNotifyPropertyChanged
     {
         private int _id;
         private DateTime _dateStart;

@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AntiquesShop.Database.Models.Base
+namespace AntiquesShop.Utilities
 {
-    internal class BaseModel : INotifyPropertyChanged
+    internal abstract class BaseNotifyPropertyChanged : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 

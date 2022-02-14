@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using AntiquesShop.Database;
 using AntiquesShop.Database.Models;
+using AntiquesShop.Windows;
 
 namespace AntiquesShop
 {
@@ -26,8 +27,8 @@ namespace AntiquesShop
         {
             InitializeComponent();
 
-            var vals = AntiquesShopDatabase.Instance.Orders.ToList();
-            var lavs = AntiquesShopDatabase.Instance.Clients.ToList();
-        }
+            new CommonTableWindow<Antiques>(nameof(Antiques), AntiquesShopDatabase.Instance.Antiques.ToList())
+                .ShowDialog();
+          }
     }
 }

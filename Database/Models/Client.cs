@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AntiquesShop.Database.Models.Base;
+using AntiquesShop.Utilities;
 
 namespace AntiquesShop.Database.Models
 {
-    internal class Client : BaseModel
+    internal class Client : BaseNotifyPropertyChanged
     {
         private int _id;
         private string _name;
