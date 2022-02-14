@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AntiquesShop.Database.Models.Enums
+{
+    internal enum Role
+    {
+        Administrator,
+        Director,
+        Manager
+    }
+}
